@@ -58,6 +58,6 @@ public class Main {
         boolean isActive = true;
         char h = 123;
         String str = "Hello";
-        System.out.println(a + " " + b + " " + c + " " + d + " " + e + " " + f + " " + isActive + " " + h + " " + str);
+        System.out.println(a + " " + b + " " + c + " " + d + " " + e + " " + f + " " + isActive + " " + h + " " + str );
     }
 }
