@@ -59,7 +59,7 @@ public class Main {
     private static int enterUserAnswer() {
         System.out.println("Введите число от 0 до 10");
         Scanner scanner = new Scanner(System.in);
-        return scanner.hasNextInt() ? scanner.nextInt() : 0;
+        return scanner.hasNextInt() ? scanner.nextInt() : 10;
     }
 
     private static void showInfo(int userAnswer, int randomNumber) {
