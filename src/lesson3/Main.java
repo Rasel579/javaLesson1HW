@@ -48,7 +48,7 @@ public class Main {
     private static void repeatGame() {
         System.out.println("Повторить игру еще раз? 1 – да / 0 – нет");
         int userAnswer = scanner.hasNextInt() ? scanner.nextInt() : 0;
-        if (userAnswer != 0) {
+        if (userAnswer == 1) {
             tryToAnswer();
         }
     }
