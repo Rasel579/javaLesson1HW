@@ -82,7 +82,8 @@ public class Main {
         String userWord;
         String answer = "";
         while(!answer.equals("Вы выйграли")){
-            userWord = askToEnterWord();
+            userWord = askToEnterWord().toLowerCase();
+            System.out.println(userWord);
             answer = compare(randomWord, userWord);
             System.out.println(answer);
         }
