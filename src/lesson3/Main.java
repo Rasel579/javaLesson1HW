@@ -1,5 +1,6 @@
 package lesson3;
 
+import java.util.Objects;
 import java.util.Scanner;
 
 public class Main {
@@ -82,7 +83,7 @@ public class Main {
         String userWord;
         String answer = "";
         while(!answer.equals("Вы выйграли")){
-            userWord = askToEnterWord().toLowerCase();
+            userWord = Objects.requireNonNull(askToEnterWord()).toLowerCase();
             System.out.println(userWord);
             answer = compare(randomWord, userWord);
             System.out.println(answer);
