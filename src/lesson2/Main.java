@@ -1,4 +1,6 @@
-public class Main {
+package lesson2;
+
+class Lesson2 {
     public static void main(String[] args) {
         //Типы данных
         typesJava();
