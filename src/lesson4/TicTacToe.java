@@ -3,8 +3,8 @@ package lesson4;
 import java.util.Scanner;
 
 public class TicTacToe {
-    static  final int SIZE = 5;
-    static final  int CHECKERS = 4;
+    static  final int SIZE = 10;
+    static final  int CHECKERS = 6;
     static  final String DOT_EMPTY = "•";
     static  final String DOT_HUMAN = "X";
     static  final String DOT_AI = "O";
