@@ -19,6 +19,11 @@ public class Cat extends Animal{
 
     }
 
+    void jump(int length, int limit) {
+        System.out.println("jump :" + ((double)length < this.getLimitHeight()));
+
+    }
+
     @Override
     void swim(int length) {
         System.out.println("swim :" + swimmer);
